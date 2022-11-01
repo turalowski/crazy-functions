@@ -31,6 +31,7 @@ Bütün mərhələləri izlədikdən sonra, aşağıdakı təcrübələriniz ola
 ├── src
 │   └── first-item-of-array.js (nümunə)
 └── package.json
+```
 
 ## Mərhələlər
 
@@ -137,7 +138,7 @@ Hər şeyin düzgün olduğuna əmin olduqda "Create pull request" seçib birlə
 ![Image](assets/pr_create.png)
 
 8. Birinci xanaya yeni birləşmə sorğusuna uyğun ad, ikinci xanaya birləşmə sorğusu barədə qısa məlumat daxil edin. Problem nömrəsini birləşmə sorğusunun məlumat hissəsində qeyd etməniz arzu olunandır. 
-![Image](assets/pr_create.png)
+![Image](assets/new_pull_request.png.png)
 
 Etdiyiniz birləşmə yuxarı paneldəki "Pull Requests" xanasında görünəcək. Birləşmə sorğusu testləri keçdiyi zaman mən qəbul edəcəm və sizin kod dəyişiklikləri əsas proyektə birləşəcək.
 
