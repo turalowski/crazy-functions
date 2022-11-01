@@ -6,6 +6,21 @@
 
 Digər dillərdə oxuyun: [İngilis dili](README.en.md)
 
+## Terminalogiya
+
+| EN            | AZ               |
+| ------------- | ---------------- |
+| project       | layihə           |
+| issue         | məsələ           |
+| merge request | birləşmə sorğusu |
+| branch        | budaq            |
+| dependencies  | paketlər         |
+| fork          | nüsxə            |
+| clone         | kopyalamaq       |
+| achievements  | mükafatlar       |
+| directory     | qovluq           |
+| open source   | açıq qaynaq      |
+
 ## Ümumi məlumat
 
 Bu proyektin məqsədi, yeni başlayan və öyrənməkdə davam edən JavaScript developerlə açıq qaynaq kodlarla işləməyi və dəstək olmağı göstərməkdir. 
