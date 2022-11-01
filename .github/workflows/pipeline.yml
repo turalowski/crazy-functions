@@ -13,3 +13,11 @@ jobs:
         run: yarn
       - name: Run tests
         run: yarn test
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install modules
+        run: yarn
+      - name: Run eslint
+        run: yarn lint
