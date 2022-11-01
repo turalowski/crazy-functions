@@ -99,3 +99,37 @@ yarn test
 ```
 
 ### 4. Birləşmə sorğusu (Pull Request və ya PR) yaratmaq
+
+1. Terminalda proyektin olduğu qovluqdan əmin olduqdan sonra (yoxlamaq üçün terminalda `pwd` komandasını istifadə edin) 
+
+2. Qovluğu istifadə etdiyiniz editorda açın və dəyişiklikləri əlavə edin.
+
+3. Dəyişiklikləri etdikdən sonra `yarn test` əmri ilə testlərin düzgün işlədiyindən əmin olun
+
+4. Əsas repositoriyanı original repositoriya kimi əlavə edin
+
+```
+git remote add --track main upstream https://github.com/turalowski/crazy-functions.git
+git fetch upstream
+```
+
+5. Dəyişiklikləri yadda saxlayın və nüsxəsini çıxardığınız proyektə əlavə edin
+
+```
+git add .
+git commit -m "{Əlavə etdiyiniz dəyişikliklərlə bağlı qısa mesaj}"
+git push -u origin main
+```
+
+6. Sizin GitHub profilinizdə yerləşən proyektin nüsxəsinə daxil olub yuxarı paneldən Pull sorğuların siyahısını seçin. Açılan yeni pəncərədən sağdakı yaşıl butona tıklayın.
+![Image](assets/new_pull_request.png)
+
+
+7. Açılan pəncərədə default olaraq sizin etdiyiniz dəyişikliklər görünəcək (əgər dəyişiklikləri yeni branch adı altında əlavə etməmişsəniz). Qısaca yuxarı paneldə sağdakı hissə dəyişikliklərin olduğu (sizin nüsxəsini götürüb öz adınız altında yaratdığınız proyekt) soldakı yer isə dəyişiklikləri birləşdirmək istədiyiniz yeri bildirir.
+Hər şeyin düzgün olduğuna əmin olduqda "Create pull request" seçib birləşməni təsdiq edə bilərsiniz.
+
+![Image](assets/pr_review.png)
+
+Etdiyiniz birləşmə yuxarı paneldəki "Pull Requests" xanasında görünəcək. Birləşmə sorğusu testləri keçdiyi zaman mən qəbul edəcəm və sizin kod dəyişiklikləri əsas proyektə birləşəcək.
+
+Bu mərhələyə qədər gəldinizsə GitHub tərəfindən sizin hesaba yeni nailiyyətlər veriləcək. __`Təbriklər`__
