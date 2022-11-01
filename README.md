@@ -4,7 +4,7 @@
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/turalowski.svg?style=social&label=Follow%20%40turalowski)](https://twitter.com/turalowski)
 
-Digər dillərdə oxuyun: [İngilis dili](README.en.md)
+Digər dillərdə oxuyun: [English](README.en.md)
 
 ## Terminalogiya
 
