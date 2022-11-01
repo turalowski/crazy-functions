@@ -10,14 +10,13 @@ Digər dillərdə oxuyun: [İngilis dili](README.en.md)
 
 Bu proyektin məqsədi, yeni başlayan və öyrənməkdə davam edən JavaScript developerlə açıq qaynaq kodlarla işləməyi və dəstək olmağı göstərməkdir. 
 
-**Çətinlik çəkdiyiniz mərhələ olarsa deməli düzgün izah olunmayıb. Bununla bağlı məsələ(issue) yaratmaqdan çəkinməyin**
+**Çətinlik çəkdiyiniz mərhələ olarsa deməli düzgün izah olunmayıb. Bununla bağlı [məsələ(issue)](https://github.com/turalowski/crazy-functions/issues/new) yaratmaqdan çəkinməyin**
 
 Bütün mərhələləri izlədikdən sonra, aşağıdakı təcrübələriniz olacaq:
 
 1. Github proyektlərində problem(issue) yaratmaq.
 2. Proyekti kopyalamaq(clone) və nüsxəsini yaratmaq(fork).
-3. Yaratdığınız problemlərə uyğun olaraq dəyişiklikləri saxlaya biləcəyiniz budaq(branch) yaratmaq, yazdığınız testləri yoxlamaq və dəyişiklikləri əsas proyektə ötürmək.
-4. Birləşmə sorğusu yaratmaq.
+3. Birləşmə sorğusu yaratmaq.
 
 **Bu sizin ilk uğurlu birləşmə sorğunuz olacaqsa, github tərəfindən bir-neçə mükafatlar əldə edəcəksiniz. Mükafatların siyahısı ilə [buradan](https://github.com/Schweinepriester/github-profile-achievements) tanış ola bilərsiniz.**
 
@@ -30,10 +29,9 @@ Bütün mərhələləri izlədikdən sonra, aşağıdakı təcrübələriniz ola
 ├── __tests__
 │   └── first-item-of-array.test.js (nümunə)
 ├── src
-│   ├── first-item-of-array.js (nümunə)
-│   └── index.js (yaratdığınız funksiyanı buradan istifadə edirsiniz)
+│   └── first-item-of-array.js (nümunə)
 └── package.json
-```
+
 ## Mərhələlər
 
 ### 1. Problem(issue) yaratmaq
@@ -104,7 +102,15 @@ yarn test
 
 2. Qovluğu istifadə etdiyiniz editorda açın və dəyişiklikləri əlavə edin.
 
-3. Dəyişiklikləri etdikdən sonra `yarn test` əmri ilə testlərin düzgün işlədiyindən əmin olun
+3. Dəyişiklikləri etdikdən sonra hər şeyin düzgün olduğunu aşağıdakı əmrlərlə yoxlayın:
+
+```
+yarn test
+yarn lint
+yarn format
+```
+
+Xəta baş verərsə kodu buluda yükləməzdən öncə xətaları həll edin.
 
 4. Əsas repositoriyanı original repositoriya kimi əlavə edin
 
@@ -125,7 +131,7 @@ git push -u origin main
 ![Image](assets/new_pull_request.png)
 
 
-7. Açılan pəncərədə default olaraq sizin etdiyiniz dəyişikliklər görünəcək (əgər dəyişiklikləri yeni branch adı altında əlavə etməmişsəniz). Qısaca yuxarı paneldə sağdakı hissə dəyişikliklərin olduğu (sizin nüsxəsini götürüb öz adınız altında yaratdığınız proyekt) soldakı yer isə dəyişiklikləri birləşdirmək istədiyiniz yeri bildirir.
+7. Açılan pəncərədə default olaraq sizin etdiyiniz dəyişikliklər görünəcək Qısaca yuxarı paneldə sağdakı hissə dəyişikliklərin olduğu (sizin nüsxəsini götürüb öz adınız altında yaratdığınız proyekt) soldakı yer isə dəyişiklikləri birləşdirmək istədiyiniz yeri bildirir.
 Hər şeyin düzgün olduğuna əmin olduqda "Create pull request" seçib birləşməni təsdiq edə bilərsiniz.
 
 ![Image](assets/pr_create.png)
