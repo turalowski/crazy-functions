@@ -39,23 +39,23 @@ Bütün mərhələləri izlədikdən sonra, aşağıdakı təcrübələriniz ola
 ### 1. Problem(issue) yaratmaq
 
 
-> 1. Proyektin səhifəsinə [daxil olun](https://github.com/turalowski/crazy-functions)
-> 
-> 2. Problemlərin siyahısına daxil olun
->
-> ![image](assets/issue_tab.png)
-> 
-> 3. Yeni problem yaratmağı seçin
-> ![image](assets/new_issue.png)
->
-> 4. Birinci xanaya uyğun ad, ikinci xanaya isə qısa məlumat daxil edin.
->
-> ![image](assets/issue_details.png)
-> 
-> * Yaxşı olar ki, problemin adını və məlumatı ingilis dilində qeyd edəsiniz.
-> 
-> Məsələn, fərz edək ki, 2 ədədin cəmini hesablayan bir funksiya əlavə etmək istəyirsiniz. Birinci xanaya "Function to add 2 numbers" ikinci xanaya isə "I'm planning to create a function which will receive 2 numbers as argument and return sum of them" qeyd edə bilərsiniz. Problem adı və məlumat hissəsi sizin yaradıcılığınızdan aslıdır, əlavələr etməkdən çəkinməyin. (Funksiyanın ümumi dizaynı, teslərdə ola biləcək ehtimallar -  null, undefined və s.)
->
+ 1. Proyektin səhifəsinə [daxil olun](https://github.com/turalowski/crazy-functions)
+ 
+ 2. Problemlərin siyahısına daxil olun
+
+ ![image](assets/issue_tab.png)
+
+ 3. Yeni problem yaratmağı seçin
+ ![image](assets/new_issue.png)
+
+ 4. Birinci xanaya uyğun ad, ikinci xanaya isə qısa məlumat daxil edin.
+
+ ![image](assets/issue_details.png)
+ 
+ * Yaxşı olar ki, problemin adını və məlumatı ingilis dilində qeyd edəsiniz.
+ 
+ Məsələn, fərz edək ki, 2 ədədin cəmini hesablayan bir funksiya əlavə etmək istəyirsiniz. Birinci xanaya "Function to add 2 numbers" ikinci xanaya isə "I'm planning to create a function which will receive 2 numbers as argument and return sum of them" qeyd edə bilərsiniz. Problem adı və məlumat hissəsi sizin yaradıcılığınızdan aslıdır, əlavələr etməkdən çəkinməyin. (Funksiyanın ümumi dizaynı, teslərdə ola biləcək ehtimallar -  null, undefined və s.)
+
 
 ### 2. Proyektin nüsxəsini(fork) yaratmaq
 
@@ -128,7 +128,10 @@ git push -u origin main
 7. Açılan pəncərədə default olaraq sizin etdiyiniz dəyişikliklər görünəcək (əgər dəyişiklikləri yeni branch adı altında əlavə etməmişsəniz). Qısaca yuxarı paneldə sağdakı hissə dəyişikliklərin olduğu (sizin nüsxəsini götürüb öz adınız altında yaratdığınız proyekt) soldakı yer isə dəyişiklikləri birləşdirmək istədiyiniz yeri bildirir.
 Hər şeyin düzgün olduğuna əmin olduqda "Create pull request" seçib birləşməni təsdiq edə bilərsiniz.
 
-![Image](assets/pr_review.png)
+![Image](assets/pr_create.png)
+
+8. Birinci xanaya yeni birləşmə sorğusuna uyğun ad, ikinci xanaya birləşmə sorğusu barədə qısa məlumat daxil edin. Problem nömrəsini birləşmə sorğusunun məlumat hissəsində qeyd etməniz arzu olunandır. 
+![Image](assets/pr_create.png)
 
 Etdiyiniz birləşmə yuxarı paneldəki "Pull Requests" xanasında görünəcək. Birləşmə sorğusu testləri keçdiyi zaman mən qəbul edəcəm və sizin kod dəyişiklikləri əsas proyektə birləşəcək.
 
