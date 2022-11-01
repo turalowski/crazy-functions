@@ -1,4 +1,4 @@
-import { lastItemOfArray } from '../src';
+import lastItemOfArray from '../src/last-item-of-array';
 
 describe("Let's make working with arrays easier", () => {
   test('It should find last item of array', () => {

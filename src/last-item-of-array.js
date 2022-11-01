@@ -4,6 +4,8 @@
  * @param {Array} array - List of elements
  * @returns {any} - Last item of received array
  */
-export function lastItemOfArray(array) {
+function lastItemOfArray(array) {
   return array[array.length - 1];
 }
+
+export default lastItemOfArray;

@@ -4,6 +4,8 @@
  * @param {Array} array - List of elements
  * @returns {any} - First item of received array
  */
-export function firstItemOfArray(array) {
+function firstItemOfArray(array) {
   return array[0];
 }
+
+export default firstItemOfArray;

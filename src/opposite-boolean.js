@@ -4,7 +4,8 @@
  * @param {Boolean} value - Passed boolean argument
  * @returns {Boolean} - Opposite value of passed argument
  */
- export function oppositeBoolean(value) {
-    return !value;
-  }
-  
+function oppositeBoolean(value) {
+  return !value;
+}
+
+export default oppositeBoolean;
